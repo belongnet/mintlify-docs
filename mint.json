@@ -37,7 +37,7 @@
     {
       "group": "SDK",
       "pages": [
-        "introduction",
+        "sdk/introduction",
         "sdk/installing"
       ]
     },
