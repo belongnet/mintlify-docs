@@ -38,8 +38,7 @@
       "group": "SDK",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "sdk/installing"
       ]
     },
     {
