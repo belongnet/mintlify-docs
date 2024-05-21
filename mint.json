@@ -38,7 +38,8 @@
       "group": "SDK",
       "pages": [
         "sdk/introduction",
-        "sdk/installing"
+        "sdk/installing",
+        "sdk/guide"
       ]
     },
     {
