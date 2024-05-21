@@ -33,10 +33,10 @@
         "sdk/installing",
         "sdk/guide"
       ]
-    },
+    }
   ],
   "footerSocials": {
     "x": "https://x.com/belongnet",
-    "github": "https://github.com/belongnet",
+    "github": "https://github.com/belongnet"
   }
 }
