@@ -15,24 +15,22 @@
       "to": "#D1AFFF"
     }
   },
-  "topbarLinks": [
-  ],
+  "topbarLinks": [],
   "topbarCtaButton": {
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
-       {
-        "name": "SDK",
-        "url": "sdk"
+    {
+      "name": "Documentation",
+      "url": "docs"
     },
-     {
-        "name": "App",
-        "url": "app"
+    {
+      "name": "App",
+      "url": "app"
     }
   ],
-  "anchors": [
-  ],
+  "anchors": [],
   "navigation": [
     {
       "group": "SDK",
@@ -43,19 +41,23 @@
       ]
     },
     {
-        "group": "App",
-        "pages": [
-            "Authorization",
-            {
-                "group": "Authorization",
-                "pages": ["app/auth/wallet"]
-            },
-            "Collection",
-            {
-                "group": "Collection",
-                "pages": ["app/collection/product"]
-            }
-        ]
+      "group": "App",
+      "pages": [
+        "Authorization",
+        {
+          "group": "Authorization",
+          "pages": [
+            "app/auth/wallet"
+          ]
+        },
+        "Collection",
+        {
+          "group": "Collection",
+          "pages": [
+            "app/collection/product"
+          ]
+        }
+      ]
     }
   ],
   "footerSocials": {
