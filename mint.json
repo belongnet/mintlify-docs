@@ -1,92 +1,86 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Belong.net",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#7540EE",
-    "light": "#D1AFFF",
-    "dark": "#A078CC",
-    "anchors": {
-      "from": "#A078CC",
-      "to": "#D1AFFF"
-    }
-  },
-  "topbarLinks": [],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "Documentation",
-      "url": "docs"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Belong.net",
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
     },
-    {
-      "name": "App",
-      "url": "app"
-    }
-  ],
-  "anchors": [
-    "Overview",
-    "QuickStart",
-    "APIReference",
-    "Guides"
-  ],
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "overview/introduction",
-        "overview/quickstart"
-      ]
-    },
-    {
-      "group": "SDK",
-      "pages": [
-        "sdk/introduction",
-        "sdk/installing",
-        "sdk/guide",
-        "sdk/examples"
-      ]
-    },
-    {
-      "group": "App",
-      "pages": [
-        "Authorization",
-        {
-          "group": "Authorization",
-          "pages": [
-            "app/auth/overview",
-            "app/auth/wallet",
-            "app/auth/api-reference"
-          ]
-        },
-        "Collection",
-        {
-          "group": "Collection",
-          "pages": [
-            "app/collection/overview",
-            "app/collection/product",
-            "app/collection/api-reference"
-          ]
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#7540EE",
+        "light": "#D1AFFF",
+        "dark": "#A078CC",
+        "anchors": {
+            "from": "#A078CC",
+            "to": "#D1AFFF"
         }
-      ]
     },
-    {
-      "group": "Guides",
-      "pages": [
-        "guides/tutorials",
-        "guides/faq",
-        "guides/troubleshooting"
-      ]
+    "topbarLinks": [],
+    "topbarCtaButton": {
+        "name": "Dashboard",
+        "url": "https://dashboard.mintlify.com"
+    },
+    "tabs": [
+        {
+            "name": "Documentation",
+            "url": "documentation"
+        },
+        {
+            "name": "App",
+            "url": "app"
+        }
+    ],
+    "anchors": [],
+    "navigation": [
+        {
+            "group": "Documentation",
+            "pages": [
+                "Overview",
+                {
+                    "group": "Overview",
+                    "pages": [
+                        "overview/introduction",
+                        "overview/quickstart"
+                    ]
+                },
+                "SDK",
+                {
+                    "group": "SDK",
+                    "pages": [
+                        "sdk/introduction",
+                        "sdk/installing",
+                        "sdk/guide",
+                        "sdk/examples"
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "App",
+            "pages": [
+                "Authorization",
+                {
+                    "group": "Authorization",
+                    "pages": [
+                        "app/auth/overview",
+                        "app/auth/wallet",
+                        "app/auth/api-reference"
+                    ]
+                },
+                "Collection",
+                {
+                    "group": "Collection",
+                    "pages": [
+                        "app/collection/overview",
+                        "app/collection/product",
+                        "app/collection/api-reference"
+                    ]
+                }
+            ]
+        }
+    ],
+    "footerSocials": {
+        "x": "https://x.com/belongnet",
+        "github": "https://github.com/belongnet"
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/belongnet",
-    "github": "https://github.com/belongnet"
-  }
 }
