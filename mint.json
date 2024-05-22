@@ -29,12 +29,12 @@
       "url": "docs"
     },
     {
-      "name": "App",
-      "url": "app"
+      "name": "App guides",
+      "url": "docs/app"
     },
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "docs/api-reference"
     }
   ],
   "anchors": [],
@@ -42,11 +42,7 @@
     {
       "group": "Documentation",
       "pages": [
-        "Overview",
-        {
-          "group": "Overview",
-          "pages": ["docs/overview/introduction", "docs/overview/quickstart"]
-        }
+        "docs/overview/introduction"
       ]
     },
     {
