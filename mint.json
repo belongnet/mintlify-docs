@@ -25,10 +25,6 @@
     },
     "tabs": [
         {
-            "name": "Documentation",
-            "url": "documentation"
-        },
-        {
             "name": "App",
             "url": "app"
         }
