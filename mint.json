@@ -39,7 +39,7 @@
         "pages": [
             "Authorization",
             {
-                "group": "auth",
+                "group": "Authorization",
                 "pages": ["app/auth/wallet"]
             },
             "Collection",
