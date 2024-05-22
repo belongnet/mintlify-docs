@@ -1,84 +1,89 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
-    "name": "Belong.net",
-    "logo": {
-        "dark": "/logo/dark.svg",
-        "light": "/logo/light.svg"
-    },
-    "favicon": "/favicon.svg",
-    "colors": {
-        "primary": "#7540EE",
-        "light": "#D1AFFF",
-        "dark": "#A078CC",
-        "anchors": {
-            "from": "#A078CC",
-            "to": "#D1AFFF"
-        }
-    },
-    "topbarLinks": [],
-    "topbarCtaButton": {
-        "name": "Dashboard",
-        "url": "https://dashboard.mintlify.com"
-    },
-    "primaryTab": {
-        "name": "Documentation"
-    },
-    "tabs": [
-        {
-            "name": "App",
-            "url": "app"
-        }
-    ],
-    "anchors": [],
-    "navigation": [
-        {
-            "group": "Documentation",
-            "pages": [
-                "Overview",
-                {
-                    "group": "Overview",
-                    "pages": [
-                        "overview/introduction",
-                        "overview/quickstart"
-                    ]
-                }
-            ]
-        },
-        {
-            "group": "SDK",
-            "pages": [
-                "sdk/introduction",
-                "sdk/installing",
-                "sdk/guide",
-                "sdk/examples"
-            ]
-        },
-        {
-            "group": "App",
-            "pages": [
-                "Authorization",
-                {
-                    "group": "Authorization",
-                    "pages": [
-                        "app/auth/overview",
-                        "app/auth/wallet",
-                        "app/auth/api-reference"
-                    ]
-                },
-                "Collection",
-                {
-                    "group": "Collection",
-                    "pages": [
-                        "app/collection/overview",
-                        "app/collection/product",
-                        "app/collection/api-reference"
-                    ]
-                }
-            ]
-        }
-    ],
-    "footerSocials": {
-        "x": "https://x.com/belongnet",
-        "github": "https://github.com/belongnet"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Belong.net",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#7540EE",
+    "light": "#D1AFFF",
+    "dark": "#A078CC",
+    "anchors": {
+      "from": "#A078CC",
+      "to": "#D1AFFF"
     }
+  },
+  "topbarLinks": [],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
+  "primaryTab": {
+    "name": "Documentation"
+  },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "docs"
+    },
+    {
+      "name": "App",
+      "url": "app"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [],
+  "navigation": [
+    {
+      "group": "Documentation",
+      "pages": [
+        "Overview",
+        {
+          "group": "Overview",
+          "pages": ["docs/overview/introduction", "docs/overview/quickstart"]
+        }
+      ]
+    },
+    {
+      "group": "SDK",
+      "pages": [
+        "docs/sdk/introduction",
+        "docs/sdk/installing",
+        "docs/sdk/guide",
+        "docs/sdk/examples"
+      ]
+    },
+    {
+      "group": "App",
+      "pages": [
+        "Authorization",
+        {
+          "group": "Authorization",
+          "pages": [
+            "docs/app/auth/overview",
+            "docs/app/auth/wallet",
+            "docs/app/auth/api-reference"
+          ]
+        },
+        "Collection",
+        {
+          "group": "Collection",
+          "pages": [
+            "docs/app/collection/overview",
+            "docs/app/collection/product",
+            "docs/app/collection/api-reference"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/belongnet",
+    "github": "https://github.com/belongnet"
+  }
 }
