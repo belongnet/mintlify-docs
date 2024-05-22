@@ -42,7 +42,12 @@
                         "overview/introduction",
                         "overview/quickstart"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "group": "Documentation",
+            "pages": [
                 "SDK",
                 {
                     "group": "SDK",
