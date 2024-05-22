@@ -30,14 +30,27 @@
       "url": "app"
     }
   ],
-  "anchors": [],
+  "anchors": [
+    "Overview",
+    "QuickStart",
+    "APIReference",
+    "Guides"
+  ],
   "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "overview/introduction",
+        "overview/quickstart"
+      ]
+    },
     {
       "group": "SDK",
       "pages": [
         "sdk/introduction",
         "sdk/installing",
-        "sdk/guide"
+        "sdk/guide",
+        "sdk/examples"
       ]
     },
     {
@@ -47,16 +60,28 @@
         {
           "group": "Authorization",
           "pages": [
-            "app/auth/wallet"
+            "app/auth/overview",
+            "app/auth/wallet",
+            "app/auth/api-reference"
           ]
         },
         "Collection",
         {
           "group": "Collection",
           "pages": [
-            "app/collection/product"
+            "app/collection/overview",
+            "app/collection/product",
+            "app/collection/api-reference"
           ]
         }
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/tutorials",
+        "guides/faq",
+        "guides/troubleshooting"
       ]
     }
   ],
