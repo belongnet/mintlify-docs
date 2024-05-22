@@ -20,23 +20,6 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "primaryTab": {
-    "name": "Documentation"
-  },
-  "tabs": [
-    {
-      "name": "Documentation",
-      "url": "docs"
-    },
-    {
-      "name": "App guides",
-      "url": "docs/app"
-    },
-    {
-      "name": "API Reference",
-      "url": "docs/api-reference"
-    }
-  ],
   "anchors": [],
   "navigation": [
     {
