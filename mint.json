@@ -40,7 +40,7 @@
             "auth",
             {
                 "group": "auth",
-                "pages": ["wallet"]
+                "pages": ["app/auth/wallet"]
             }
         ]
     }
