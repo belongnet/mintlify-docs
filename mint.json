@@ -22,6 +22,14 @@
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
+       {
+        "name": "SDK",
+        "url": "sdk"
+    },
+     {
+        "name": "App",
+        "url": "app"
+    }
   ],
   "anchors": [
   ],
