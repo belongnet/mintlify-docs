@@ -39,7 +39,7 @@
         "pages": [
             "auth",
             {
-                "group": "Auth",
+                "group": "auth",
                 "pages": ["wallet"]
             }
         ]
