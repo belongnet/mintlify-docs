@@ -45,9 +45,7 @@
       "group": "SDK",
       "pages": [
         "sdk/introduction",
-        "sdk/installing",
-        "sdk/guide",
-        "sdk/examples"
+        "sdk/installing"
       ]
     },
     {
@@ -57,7 +55,6 @@
         {
           "group": "Authorization",
           "pages": [
-            "app/auth/overview",
             "app/auth/wallet",
             "app/auth/api-reference"
           ]
@@ -66,7 +63,6 @@
         {
           "group": "Collection",
           "pages": [
-            "app/collection/overview",
             "app/collection/product",
             "app/collection/api-reference"
           ]
