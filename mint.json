@@ -46,18 +46,12 @@
             ]
         },
         {
-            "group": "Documentation",
+            "group": "SDK",
             "pages": [
-                "SDK",
-                {
-                    "group": "SDK",
-                    "pages": [
-                        "sdk/introduction",
-                        "sdk/installing",
-                        "sdk/guide",
-                        "sdk/examples"
-                    ]
-                }
+                "sdk/introduction",
+                "sdk/installing",
+                "sdk/guide",
+                "sdk/examples"
             ]
         },
         {
