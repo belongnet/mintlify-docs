@@ -25,16 +25,12 @@
   },
   "tabs": [
     {
-      "name": "Documentation",
-      "url": "docs"
-    },
-    {
       "name": "App guides",
-      "url": "docs/app"
+      "url": "app"
     },
     {
       "name": "API Reference",
-      "url": "docs/api-reference"
+      "url": "api-reference"
     }
   ],
   "anchors": [],
@@ -42,16 +38,16 @@
     {
       "group": "Documentation",
       "pages": [
-        "docs/overview/introduction"
+        "introduction"
       ]
     },
     {
       "group": "SDK",
       "pages": [
-        "docs/sdk/introduction",
-        "docs/sdk/installing",
-        "docs/sdk/guide",
-        "docs/sdk/examples"
+        "sdk/introduction",
+        "sdk/installing",
+        "sdk/guide",
+        "sdk/examples"
       ]
     },
     {
@@ -61,18 +57,18 @@
         {
           "group": "Authorization",
           "pages": [
-            "docs/app/auth/overview",
-            "docs/app/auth/wallet",
-            "docs/app/auth/api-reference"
+            "app/auth/overview",
+            "app/auth/wallet",
+            "app/auth/api-reference"
           ]
         },
         "Collection",
         {
           "group": "Collection",
           "pages": [
-            "docs/app/collection/overview",
-            "docs/app/collection/product",
-            "docs/app/collection/api-reference"
+            "app/collection/overview",
+            "app/collection/product",
+            "app/collection/api-reference"
           ]
         }
       ]
