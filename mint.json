@@ -37,10 +37,15 @@
     {
         "group": "App",
         "pages": [
-            "auth",
+            "Authorization",
             {
                 "group": "auth",
                 "pages": ["app/auth/wallet"]
+            },
+            "Collection",
+            {
+                "group": "Collection",
+                "pages": ["app/collection/product"]
             }
         ]
     }
