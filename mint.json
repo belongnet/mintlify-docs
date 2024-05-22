@@ -33,6 +33,16 @@
         "sdk/installing",
         "sdk/guide"
       ]
+    },
+    {
+        "group": "App",
+        "pages": [
+            "app",
+            {
+                "group": "Auth",
+                "pages": ["wallet"]
+            }
+        ]
     }
   ],
   "footerSocials": {
