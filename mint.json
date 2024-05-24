@@ -29,6 +29,10 @@
       "url": "app"
     },
     {
+      "name": "Libraries",
+      "url": "libraries"
+    },
+    {
       "name": "API Reference",
       "url": "https://docs.belong.net/"
     }
@@ -44,8 +48,8 @@
     {
       "group": "SDK",
       "pages": [
-        "sdk/installing",
-        "sdk/get-status"
+        "libraries/sdk/installing",
+        "libraries/sdk/get-status"
       ]
     },
     {
