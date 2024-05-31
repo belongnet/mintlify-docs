@@ -1,32 +1,5 @@
-# Mintlify Starter Kit
+# Belong Net Documentation 
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Welcome to the Mintlify Belong Net documentation repository. This repository offers comprehensive and detailed documentation for the Belong Net project, equipping developers and users with all the essential information to understand, install, configure, and fully utilize the features of Belong Net.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
-
-### Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
-
-```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+This documentation is powered by Mintlify, ensuring clarity, ease of use, and a structured approach to accessing information. Dive in to discover everything you need to optimize your experience with Belong Net.
