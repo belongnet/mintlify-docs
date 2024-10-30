@@ -41,16 +41,15 @@
   "navigation": [
     {
       "group": "Documentation",
-      "pages": [
-        "introduction"
-      ]
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Nft Checkout",
+      "pages": ["checkout/checkout"]
     },
     {
       "group": "SDK",
-      "pages": [
-        "libraries/sdk/installing",
-        "libraries/sdk/get-status"
-      ]
+      "pages": ["libraries/sdk/installing", "libraries/sdk/get-status"]
     },
     {
       "group": "App",
@@ -58,18 +57,12 @@
         "Authorization",
         {
           "group": "Authorization",
-          "pages": [
-            "app/auth/wallet",
-            "app/auth/api-reference"
-          ]
+          "pages": ["app/auth/wallet", "app/auth/api-reference"]
         },
         "Collection",
         {
           "group": "Collection",
-          "pages": [
-            "app/collection/product",
-            "app/collection/api-reference"
-          ]
+          "pages": ["app/collection/product", "app/collection/api-reference"]
         }
       ]
     }
