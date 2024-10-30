@@ -33,6 +33,10 @@
       "url": "libraries"
     },
     {
+      "name": "Nft Checkout",
+      "url": "nft-checkout"
+    },
+    {
       "name": "API Reference",
       "url": "https://docs.belong.net/"
     }
