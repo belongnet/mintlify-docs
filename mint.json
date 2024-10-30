@@ -45,7 +45,7 @@
     },
     {
       "group": "Nft Checkout",
-      "pages": ["checkout/checkout"]
+      "pages": ["documentation/checkout"]
     },
     {
       "group": "SDK",
