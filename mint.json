@@ -43,7 +43,6 @@
       "group": "Documentation",
       "pages": [
         "introduction",
-        "Nft Checkout",
         {
           "group": "Nft Checkout",
           "pages": ["checkout/checkout"]
