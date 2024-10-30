@@ -1,6 +1,6 @@
 ---
-title: 'Installing'
-description: 'Install sdk'
+title: "Installing"
+description: "Install sdk"
 ---
 
 JavaScript SDK for integrating with Belong.net widget for seamless payment implementation on your website or application frontend.
@@ -24,7 +24,7 @@ yarn add @belongnet/sdk
 and then import it in your project:
 
 ```ts
-import { createPaymentFrame } from '@belongnet/sdk'
+import { createPaymentFrame } from "@belongnet/sdk";
 ```
 
 #### CDN:
@@ -33,7 +33,7 @@ add to the bottom of your HTML file with the following content.
 
 ```html
 <script type="module">
-  import { createPaymentFrame } from 'https://esm.sh/@belongnet/sdk'
+  import { createPaymentFrame } from "https://esm.sh/@belongnet/sdk";
 </script>
 ```
 
@@ -41,15 +41,27 @@ add to the bottom of your HTML file with the following content.
 
 Use in your project:
 
+Payment page:
+
 ```ts
+createPaymentFrame({
+  el: document.getElementById("belong-payment-frame"),
+  params: {
+    target: "event-ticket",
+    eventId: "f9b2ea4c7be71407fcb6ed2c",
+  },
+});
+```
+
+Checkout:
+
+````ts
 createPaymentFrame({
   el: document.getElementById('belong-payment-frame'),
   params: {
-    target: 'event-ticket',
-    eventId: 'f9b2ea4c7be71407fcb6ed2c',
+    checkoutId: '672174e1ae0c81f7e40bada3',
   },
 })
-```
 
 <Note>To create a product collection, follow the following [instructions](/app/collection/product)</Note>
 
@@ -85,6 +97,6 @@ window.addEventListener('message', handlePayment)
 function onUnmount() {
   window.removeEventListener('message', handlePayment)
 }
-```
+````
 
 This method makes sure your app reacts well to payment events, giving users a smooth experience even if payments fail. But it's only for showing visual changes on the frontend. For safer payments, you need server-side processing with the API too.
