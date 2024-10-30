@@ -41,11 +41,14 @@
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction"]
-    },
-    {
-      "group": "Nft Checkout",
-      "pages": ["documentation/checkout"]
+      "pages": [
+        "introduction",
+        "Nft Checkout",
+        {
+          "group": "Nft Checkout",
+          "pages": ["checkout/checkout"]
+        }
+      ]
     },
     {
       "group": "SDK",
